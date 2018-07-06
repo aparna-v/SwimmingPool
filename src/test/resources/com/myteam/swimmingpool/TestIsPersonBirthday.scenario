@@ -40,10 +40,6 @@
       <name>CalculatedAttribute</name>
       <anonymous>true</anonymous>
     </expect-fact>
-    <expect-rule>
-      <ruleName>isPersonBirthday</ruleName>
-      <expectedFire>true</expectedFire>
-    </expect-rule>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
