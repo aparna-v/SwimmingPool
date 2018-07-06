@@ -8,7 +8,7 @@ public class BaseElement implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.util.List<com.myteam.swimmingpool.CalculatedAttribute> calculatedAttributeList = new ArrayList<>();
+	private java.util.List<com.myteam.swimmingpool.CalculatedAttribute> calculatedAttributeList = new java.util.ArrayList<>();
 
 	public BaseElement() {
 	}
