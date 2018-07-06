@@ -6,12 +6,65 @@ package com.myteam.swimmingpool;
 
 public class Address implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Address() {
-    }
+	private java.lang.String country;
+	private java.lang.String zipCode;
+	private java.lang.String cityName;
+	private java.lang.String streetNumber;
+	private java.lang.String streetName;
 
+	public Address() {
+	}
 
+	public java.lang.String getCountry() {
+		return this.country;
+	}
 
+	public void setCountry(java.lang.String country) {
+		this.country = country;
+	}
+
+	public java.lang.String getZipCode() {
+		return this.zipCode;
+	}
+
+	public void setZipCode(java.lang.String zipCode) {
+		this.zipCode = zipCode;
+	}
+
+	public java.lang.String getCityName() {
+		return this.cityName;
+	}
+
+	public void setCityName(java.lang.String cityName) {
+		this.cityName = cityName;
+	}
+
+	public java.lang.String getStreetNumber() {
+		return this.streetNumber;
+	}
+
+	public void setStreetNumber(java.lang.String streetNumber) {
+		this.streetNumber = streetNumber;
+	}
+
+	public java.lang.String getStreetName() {
+		return this.streetName;
+	}
+
+	public void setStreetName(java.lang.String streetName) {
+		this.streetName = streetName;
+	}
+
+	public Address(java.lang.String country, java.lang.String zipCode,
+			java.lang.String cityName, java.lang.String streetNumber,
+			java.lang.String streetName) {
+		this.country = country;
+		this.zipCode = zipCode;
+		this.cityName = cityName;
+		this.streetNumber = streetNumber;
+		this.streetName = streetName;
+	}
 
 }
