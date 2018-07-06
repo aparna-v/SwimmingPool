@@ -4,7 +4,7 @@ import java.lang.Number;
 
 rule "isPersonBirthday"
 	dialect "mvel"
-	ruleflow-group ""
+	ruleflow-group "init"
 	when
 		pper : Person( bd : birthDate != null )
 		Quote( qd : quoteDate != null )
