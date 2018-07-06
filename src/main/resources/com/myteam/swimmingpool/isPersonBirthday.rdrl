@@ -6,5 +6,7 @@ import java.util.Date;
 rule "isPersonBirthday"
 	dialect "mvel"
 	when
+		Person( birthDate != null )
+		Quote( )
 	then
 end
