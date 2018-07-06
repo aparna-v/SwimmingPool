@@ -6,12 +6,92 @@ package com.myteam.swimmingpool;
 
 public class Quote implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Quote() {
-    }
+	private com.myteam.swimmingpool.Period period;
+	private java.util.Date validUntil;
+	private com.myteam.swimmingpool.Subscription subscription;
+	private java.util.Date quoteDate;
+	private java.util.List<com.myteam.swimmingpool.Price> priceList;
+	private com.myteam.swimmingpool.Address address;
+	private java.util.List<com.myteam.swimmingpool.Person> personList;
 
+	public Quote() {
+	}
 
+	public com.myteam.swimmingpool.Period getPeriod() {
+		return this.period;
+	}
 
+	public void setPeriod(com.myteam.swimmingpool.Period period) {
+		this.period = period;
+	}
+
+	public java.util.Date getValidUntil() {
+		return this.validUntil;
+	}
+
+	public void setValidUntil(java.util.Date validUntil) {
+		this.validUntil = validUntil;
+	}
+
+	public com.myteam.swimmingpool.Subscription getSubscription() {
+		return this.subscription;
+	}
+
+	public void setSubscription(
+			com.myteam.swimmingpool.Subscription subscription) {
+		this.subscription = subscription;
+	}
+
+	public java.util.Date getQuoteDate() {
+		return this.quoteDate;
+	}
+
+	public void setQuoteDate(java.util.Date quoteDate) {
+		this.quoteDate = quoteDate;
+	}
+
+	public java.util.List<com.myteam.swimmingpool.Price> getPriceList() {
+		return this.priceList;
+	}
+
+	public void setPriceList(
+			java.util.List<com.myteam.swimmingpool.Price> priceList) {
+		this.priceList = priceList;
+	}
+
+	public com.myteam.swimmingpool.Address getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(com.myteam.swimmingpool.Address address) {
+		this.address = address;
+	}
+
+	public java.util.List<com.myteam.swimmingpool.Person> getPersonList() {
+		return this.personList;
+	}
+
+	public void setPersonList(
+			java.util.List<com.myteam.swimmingpool.Person> personList) {
+		this.personList = personList;
+	}
+
+	public Quote(com.myteam.swimmingpool.Period period,
+			java.util.Date validUntil,
+			com.myteam.swimmingpool.Subscription subscription,
+			java.util.Date quoteDate,
+			java.util.List<com.myteam.swimmingpool.Price> priceList,
+			com.myteam.swimmingpool.Address address,
+			java.util.List<com.myteam.swimmingpool.Person> personList) {
+		this.period = period;
+		this.validUntil = validUntil;
+		this.subscription = subscription;
+		this.quoteDate = quoteDate;
+		this.priceList = priceList;
+		this.address = address;
+		this.personList = personList;
+	}
 
 }
