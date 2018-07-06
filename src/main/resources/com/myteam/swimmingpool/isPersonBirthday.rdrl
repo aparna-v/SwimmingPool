@@ -5,7 +5,8 @@ import java.lang.Number;
 rule "isPersonBirthday"
 	dialect "mvel"
 	when
-		Person( birthDate != null )
-		Quote( quoteDate != null )
+		pper : Person( birthDate != null )
+		qd : Quote( quoteDate != null )
+		not (cc : CalculatedAttribute( key == "IsPersonBirthday" ) and Person( )) 
 	then
 end
