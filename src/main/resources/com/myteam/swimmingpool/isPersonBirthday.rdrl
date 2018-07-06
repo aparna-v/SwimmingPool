@@ -1,0 +1,9 @@
+package com.myteam.swimmingpool;
+
+import java.lang.Number;
+
+rule "isPersonBirthday"
+	dialect "mvel"
+	when
+	then
+end
