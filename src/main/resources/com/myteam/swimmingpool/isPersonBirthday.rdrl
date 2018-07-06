@@ -13,4 +13,8 @@ rule "isPersonBirthday"
 		fact0.setKey( "IsPersonBirthday" );
 		fact0.setStringValue( new Boolean(isBirthday(bd,qd)).toString() );
 		insert( fact0 );
+		pper.getCalculatedAttributeList().add(ica);
+		modify( pper ) {
+				setAge( -1.0 )
+		}
 end
