@@ -43,7 +43,7 @@
           <fieldName>stringValue</fieldName>
           <expected>true</expected>
           <operator>==</operator>
-          <nature>1</nature>
+          <nature>0</nature>
         </expect-field>
       </fieldValues>
       <name>CalculatedAttribute</name>
