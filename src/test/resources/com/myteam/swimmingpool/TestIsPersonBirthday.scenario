@@ -15,6 +15,18 @@
       <name>p</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Quote</type>
+      <fieldData>
+        <field-data>
+          <name>quoteDate</name>
+          <value>06-Jul-2018</value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>q</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace/>
   </fixtures>
   <rules/>
