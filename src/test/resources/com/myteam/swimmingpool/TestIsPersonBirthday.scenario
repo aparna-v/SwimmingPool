@@ -34,23 +34,23 @@
       <name>IsPersonBirthday</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>44</executionTimeResult>
+      <executionTimeResult>23</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
-          <fieldName>stringValue</fieldName>
-          <expected>true</expected>
+          <fieldName>birthDate</fieldName>
+          <expected>06-Jul-2009</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
       </fieldValues>
-      <name>CalculatedAttribute</name>
+      <name>Person</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-06 13:34:34.266 UTC</lastRunResult>
+  <lastRunResult>2018-07-06 13:41:41.468 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
