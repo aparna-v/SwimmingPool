@@ -37,6 +37,18 @@
       <executionTimeResult>44</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>stringValue</fieldName>
+          <expected>true</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>CalculatedAttribute</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <lastRunResult>2018-07-06 13:34:34.266 UTC</lastRunResult>
   <rules/>
