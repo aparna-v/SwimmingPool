@@ -6,12 +6,25 @@ package com.myteam.swimmingpool;
 
 public class BaseElement implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public BaseElement() {
-    }
+	private java.util.List<com.myteam.swimmingpool.CalculatedAttribute> calculatedAttributeList;
 
+	public BaseElement() {
+	}
 
+	public java.util.List<com.myteam.swimmingpool.CalculatedAttribute> getCalculatedAttributeList() {
+		return this.calculatedAttributeList;
+	}
 
+	public void setCalculatedAttributeList(
+			java.util.List<com.myteam.swimmingpool.CalculatedAttribute> calculatedAttributeList) {
+		this.calculatedAttributeList = calculatedAttributeList;
+	}
+
+	public BaseElement(
+			java.util.List<com.myteam.swimmingpool.CalculatedAttribute> calculatedAttributeList) {
+		this.calculatedAttributeList = calculatedAttributeList;
+	}
 
 }
