@@ -27,6 +27,9 @@
       <name>p</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>init</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace/>
     <expect-fact>
       <fieldValues>
@@ -40,6 +43,10 @@
       <name>CalculatedAttribute</name>
       <anonymous>true</anonymous>
     </expect-fact>
+    <expect-rule>
+      <ruleName>isPersonBirthday</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
