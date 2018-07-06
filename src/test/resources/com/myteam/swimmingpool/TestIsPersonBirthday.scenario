@@ -15,6 +15,18 @@
       <name>q</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Person</type>
+      <fieldData>
+        <field-data>
+          <name>birthDate</name>
+          <value>06-Jul-2009</value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>p</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace/>
   </fixtures>
   <rules/>
