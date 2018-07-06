@@ -6,12 +6,54 @@ package com.myteam.swimmingpool;
 
 public class Subscription implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Subscription() {
-    }
+	private java.lang.String type;
+	private java.math.BigDecimal price;
+	private java.util.Date validUntil;
+	private java.util.Date validFrom;
 
+	public Subscription() {
+	}
 
+	public java.lang.String getType() {
+		return this.type;
+	}
 
+	public void setType(java.lang.String type) {
+		this.type = type;
+	}
+
+	public java.math.BigDecimal getPrice() {
+		return this.price;
+	}
+
+	public void setPrice(java.math.BigDecimal price) {
+		this.price = price;
+	}
+
+	public java.util.Date getValidUntil() {
+		return this.validUntil;
+	}
+
+	public void setValidUntil(java.util.Date validUntil) {
+		this.validUntil = validUntil;
+	}
+
+	public java.util.Date getValidFrom() {
+		return this.validFrom;
+	}
+
+	public void setValidFrom(java.util.Date validFrom) {
+		this.validFrom = validFrom;
+	}
+
+	public Subscription(java.lang.String type, java.math.BigDecimal price,
+			java.util.Date validUntil, java.util.Date validFrom) {
+		this.type = type;
+		this.price = price;
+		this.validUntil = validUntil;
+		this.validFrom = validFrom;
+	}
 
 }
