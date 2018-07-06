@@ -1,2 +1,3 @@
-
-
+'Person.gender' : ['Male','Female']
+'Period.seasonType' : ['Day','Always','Week','Weekend','Month','Summer','Winter','Spring','Autumn'
+'Price.priceType' : ['Free','Charged']
