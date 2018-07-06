@@ -6,12 +6,44 @@ package com.myteam.swimmingpool;
 
 public class Price implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Price() {
-    }
+	private java.lang.String description;
+	private java.math.BigDecimal amount;
+	private java.lang.String priceType;
 
+	public Price() {
+	}
 
+	public java.lang.String getDescription() {
+		return this.description;
+	}
 
+	public void setDescription(java.lang.String description) {
+		this.description = description;
+	}
+
+	public java.math.BigDecimal getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(java.math.BigDecimal amount) {
+		this.amount = amount;
+	}
+
+	public java.lang.String getPriceType() {
+		return this.priceType;
+	}
+
+	public void setPriceType(java.lang.String priceType) {
+		this.priceType = priceType;
+	}
+
+	public Price(java.lang.String description, java.math.BigDecimal amount,
+			java.lang.String priceType) {
+		this.description = description;
+		this.amount = amount;
+		this.priceType = priceType;
+	}
 
 }
