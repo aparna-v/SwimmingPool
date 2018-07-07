@@ -1,9 +1,12 @@
 package com.myteam.swimmingpool;
 
 import java.lang.Number;
+import java.util.List;
 
 rule "Youngest3YearOldFree"
 	dialect "mvel"
 	when
+		List( size() > 3 ) from collect ( 
+Person( age > 3 )) 
 	then
 end
