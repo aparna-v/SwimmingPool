@@ -18,5 +18,6 @@ Person( age >= 3 ))
 		insert( fact1 );
 		Price aPrice = new Price();
 		aPrice.setDescription( "Youngest3YearOldFree" );
+		aPrice.setPriceType( "Promotion" );
 		insert( aPrice );
 end
