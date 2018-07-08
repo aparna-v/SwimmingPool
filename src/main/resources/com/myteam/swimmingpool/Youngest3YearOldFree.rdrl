@@ -14,6 +14,6 @@ Person( age >= 3 ))
 	then
 		Price fact0 = new Price();
 		fact0.setPriceType( "Free" );
-		fact0.setDescription( "Youngest2YesrOldFree" );
+		fact0.setDescription( "Youngest3YearOldFree" );
 		insert( fact0 );
 end
