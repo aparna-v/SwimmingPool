@@ -15,7 +15,7 @@ public class Person extends BaseElement implements java.io.Serializable {
 	private java.lang.Double age;
 	private java.util.Date birthDate;
 	private java.math.BigDecimal standardPrice;
-	private java.util.List<com.myteam.swimmingpool.Price> priceList;
+	private java.util.List<com.myteam.swimmingpool.Price> priceList  = new java.util.ArrayList<>();
 
 	public Person() {
 	}
@@ -68,6 +68,11 @@ public class Person extends BaseElement implements java.io.Serializable {
 			java.util.List<com.myteam.swimmingpool.Price> priceList) {
 		this.priceList = priceList;
 	}
+	
+	
+    public void addPrice(Price p) {
+        this.priceList.add(p);
+    }
 
 	public Person(java.lang.String name, java.lang.String surname,
 			java.lang.Double age, java.util.Date birthDate,
