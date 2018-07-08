@@ -19,5 +19,6 @@ Person( age >= 3 ))
 		insert( fact0 );
 		CalculatedAttribute fact1 = new CalculatedAttribute();
 		fact1.setKey( "Youngest3YearOldFree" );
+		fact1.setStringValue( "Person is free" );
 		insert( fact1 );
 end
