@@ -6,12 +6,23 @@ package com.myteam.swimmingpool;
 
 public class InsertPeriod implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public InsertPeriod() {
-    }
+	private java.lang.String enumValue;
 
+	public InsertPeriod() {
+	}
 
+	public java.lang.String getEnumValue() {
+		return this.enumValue;
+	}
 
+	public void setEnumValue(java.lang.String enumValue) {
+		this.enumValue = enumValue;
+	}
+
+	public InsertPeriod(java.lang.String enumValue) {
+		this.enumValue = enumValue;
+	}
 
 }
