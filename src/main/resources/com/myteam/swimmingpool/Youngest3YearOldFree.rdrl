@@ -8,8 +8,8 @@ rule "Youngest3YearOldFree"
 	when
 		List( size() > 3 ) from collect ( 
 Person( age > 3 )) 
-		nn : Number( ) from accumulate ( Person( aage : age > 3 ),
+		nn : Number( ) from accumulate ( Person( aage : age >= 3 ),
 			min(aage)) 
-		aPerson : Person( age == ( nn ) , standardPrice != ( 1.0B ) )
+		aPerson : Person( age == ( nn ) , Sprice : standardPrice != ( 1.0B ) )
 	then
 end
