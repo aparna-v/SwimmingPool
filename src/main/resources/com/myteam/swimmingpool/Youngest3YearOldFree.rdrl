@@ -12,4 +12,8 @@ Person( age >= 3 ))
 			min(aage)) 
 		aPerson : Person( age == ( nn ) , Sprice : standardPrice != ( 1.0B ) )
 	then
+		Price fact0 = new Price();
+		fact0.setPriceType( "Free" );
+		fact0.setDescription( "Youngest2YesrOldFree" );
+		insert( fact0 );
 end
