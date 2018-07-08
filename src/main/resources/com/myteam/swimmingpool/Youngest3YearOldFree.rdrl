@@ -17,4 +17,7 @@ Person( age >= 3 ))
 		fact0.setAmount( Sprice );
 		fact0.setPriceType( "Charged" );
 		insert( fact0 );
+		CalculatedAttribute fact1 = new CalculatedAttribute();
+		fact1.setKey( "Youngest3YearOldFree" );
+		insert( fact1 );
 end
