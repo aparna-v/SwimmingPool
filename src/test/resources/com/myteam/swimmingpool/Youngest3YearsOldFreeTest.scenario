@@ -68,7 +68,7 @@
       <fieldData>
         <field-data>
           <name>processId</name>
-          <value>swimmingpool.P000</value>
+          <value>src.P0000</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -94,7 +94,7 @@
       <name>Youngest3YearOldFree</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>17</executionTimeResult>
+      <executionTimeResult>12</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -135,7 +135,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 00:57:45.128 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 00:59:46.943 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
