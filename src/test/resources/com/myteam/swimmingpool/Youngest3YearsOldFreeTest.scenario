@@ -88,17 +88,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>59</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>134</executionTimeResult>
+      <numberOfRulesFired>6</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>47.75</expected>
-          <actualResult></actualResult>
+          <actualResult>-1.0</actualResult>
           <successResult>false</successResult>
-          <explanation>[p1] field [age] was [] expected [47.75].</explanation>
+          <explanation>[p1] field [age] was [-1.0] expected [47.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -111,9 +111,9 @@
         <expect-field>
           <fieldName>age</fieldName>
           <expected>3.5</expected>
-          <actualResult></actualResult>
+          <actualResult>-1.0</actualResult>
           <successResult>false</successResult>
-          <explanation>[p2] field [age] was [] expected [3.5].</explanation>
+          <explanation>[p2] field [age] was [-1.0] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -124,12 +124,12 @@
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
       <expectedCount>1</expectedCount>
-      <explanation>Rule [Youngest3YearOldFree] was not activated. Expected it to be activated.</explanation>
+      <explanation>Rule [Youngest3YearOldFree] activated 0 times. Expected 1 times.</explanation>
       <successResult>false</successResult>
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 06:45:29.872 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 06:45:59.905 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
