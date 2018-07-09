@@ -87,21 +87,18 @@
       <name>per</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>promotion</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>344</executionTimeResult>
-      <numberOfRulesFired>6</numberOfRulesFired>
+      <executionTimeResult>59</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>47.75</expected>
-          <actualResult>-1.0</actualResult>
+          <actualResult></actualResult>
           <successResult>false</successResult>
-          <explanation>[p1] field [age] was [-1.0] expected [47.75].</explanation>
+          <explanation>[p1] field [age] was [] expected [47.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -114,9 +111,9 @@
         <expect-field>
           <fieldName>age</fieldName>
           <expected>3.5</expected>
-          <actualResult>-1.0</actualResult>
+          <actualResult></actualResult>
           <successResult>false</successResult>
-          <explanation>[p2] field [age] was [-1.0] expected [3.5].</explanation>
+          <explanation>[p2] field [age] was [] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -132,7 +129,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 06:44:48.975 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 06:45:29.872 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
