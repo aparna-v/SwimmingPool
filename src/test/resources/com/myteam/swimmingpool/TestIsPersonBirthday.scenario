@@ -27,12 +27,6 @@
       <name>q</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>IsPersonBirthday</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>init</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>161</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
