@@ -81,8 +81,20 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>Youngest3YearOldFree</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <fact-data>
+      <type>InsertPeriod</type>
+      <fieldData>
+        <field-data>
+          <name>enumValue</name>
+          <value>Day</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>per</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
-      <executionTimeResult>48</executionTimeResult>
+      <executionTimeResult>52</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -123,7 +135,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 06:23:04.69 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 06:23:35.491 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
