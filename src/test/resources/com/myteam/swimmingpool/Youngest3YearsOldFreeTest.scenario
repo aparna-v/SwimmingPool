@@ -51,6 +51,42 @@
       <name>p4</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Quote</type>
+      <fieldData>
+        <field-data>
+          <name>quoteDate</name>
+          <value>23-May-2016</value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>q</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>StartProcess</type>
+      <fieldData>
+        <field-data>
+          <name>processId</name>
+          <value>swimmingpool.P000</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>sp</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>InsertPeriod</type>
+      <fieldData>
+        <field-data>
+          <name>enumValue</name>
+          <value>day</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>per</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace/>
   </fixtures>
   <rules/>
