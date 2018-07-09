@@ -76,9 +76,6 @@
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>promotion</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>Youngest3YearOldFree</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <fact-data>
