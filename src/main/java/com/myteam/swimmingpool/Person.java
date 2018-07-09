@@ -70,7 +70,7 @@ public class Person extends BaseElement implements java.io.Serializable {
 	}
 	
 	
-    public void addPrice(Price p) {
+    public void addPrice(com.myteam.swimmingpool.Price p) {
         this.priceList.add(p);
     }
 
