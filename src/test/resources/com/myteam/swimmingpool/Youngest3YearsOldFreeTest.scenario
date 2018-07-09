@@ -106,12 +106,16 @@
           <fieldName>age</fieldName>
           <expected>3.5</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p2</name>
       <anonymous>false</anonymous>
     </expect-fact>
+    <expect-rule>
+      <ruleName>Youngest3YearOldFree</ruleName>
+      <expectedCount>1</expectedCount>
+    </expect-rule>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
