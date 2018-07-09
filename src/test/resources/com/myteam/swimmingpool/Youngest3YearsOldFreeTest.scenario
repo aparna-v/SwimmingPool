@@ -30,7 +30,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>3.5</value>
+          <value>new Double(AgeCalculationYear(p2.birthDate,q.quoteDate))</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -47,7 +47,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>40</value>
+          <value>new Double(AgeCalculationYear(p4.birthDate,q.quoteDate))</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -103,7 +103,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>44</value>
+          <value>new Double(AgeCalculationYear(p3.birthDate,q.quoteDate))</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
