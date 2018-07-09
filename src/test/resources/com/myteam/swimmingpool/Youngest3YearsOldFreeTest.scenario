@@ -123,8 +123,8 @@
     </expect-fact>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
+      <expectedCount>1</expectedCount>
       <explanation>Rule [Youngest3YearOldFree] was not activated. Expected it to be activated.</explanation>
-      <expectedFire>true</expectedFire>
       <successResult>false</successResult>
       <actualResult>0</actualResult>
     </expect-rule>
