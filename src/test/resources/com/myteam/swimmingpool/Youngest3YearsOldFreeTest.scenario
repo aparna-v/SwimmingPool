@@ -13,7 +13,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>AgeCalculationYear(q.quoteDate,p1.birthDate)</value>
+          <value>AgeCalculationYear(p1.birthDate,q.quoteDate)</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -30,24 +30,11 @@
         </field-data>
         <field-data>
           <name>age</name>
+          <value>AgeCalculationYear(p2.birthDate,q.quoteDate)</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>p2</name>
-      <isModify>false</isModify>
-    </fact-data>
-    <fact-data>
-      <type>Person</type>
-      <fieldData>
-        <field-data>
-          <name>birthDate</name>
-          <value>23-Aug-1972</value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
-          <name>age</name>
-        </field-data>
-      </fieldData>
-      <name>p3</name>
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
@@ -60,6 +47,8 @@
         </field-data>
         <field-data>
           <name>age</name>
+          <value>AgeCalculationYear(p4.birthDate,q.quoteDate)</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>p4</name>
@@ -104,6 +93,23 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>promotion</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <fact-data>
+      <type>Person</type>
+      <fieldData>
+        <field-data>
+          <name>birthDate</name>
+          <value>23-Aug-1972</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>age</name>
+          <value>AgeCalculationYear(p3.birthDate,q.quoteDate)</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>p3</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
       <executionTimeResult>69</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
