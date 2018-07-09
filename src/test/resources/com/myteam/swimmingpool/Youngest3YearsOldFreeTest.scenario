@@ -13,7 +13,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>47.75</value>
+          <value>new Double(AgeCalculationYear(p1.birthDate,q.quoteDate))</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -111,8 +111,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>69</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>73</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -120,8 +120,8 @@
           <fieldName>age</fieldName>
           <expected>47.75</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[p1] field [age] was [] expected [47.75].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p1] field [age] was [47.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -135,8 +135,8 @@
           <fieldName>age</fieldName>
           <expected>3.5</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[p2] field [age] was [] expected [3.5].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p2] field [age] was [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -147,26 +147,12 @@
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
       <expectedCount>1</expectedCount>
-      <explanation>Rule [Youngest3YearOldFree] activated 0 times. Expected 1 times.</explanation>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
-    </expect-rule>
-    <expect-rule>
-      <ruleName>InsertEnumRule</ruleName>
-      <explanation>Rule [InsertEnumRule] was not activated. Expected it to be activated.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
-    </expect-rule>
-    <expect-rule>
-      <ruleName>StartProcessRule</ruleName>
-      <explanation>Rule [StartProcessRule] was not activated. Expected it to be activated.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
+      <explanation>Rule [Youngest3YearOldFree] activated 1 times.</explanation>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 07:43:47.874 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 08:14:46.653 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
