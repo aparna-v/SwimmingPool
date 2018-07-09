@@ -1,5 +1,9 @@
 package com.myteam.swimmingpool;
 
+import java.lang.Number;
+import com.myteam.swimmingpool.SeasonType;
+import com.myteam.swimmingpool.Period;
+
 rule "InsertEnumRule"
     dialect "java"
     salience 100
