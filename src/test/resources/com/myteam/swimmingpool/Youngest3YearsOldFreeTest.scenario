@@ -94,7 +94,7 @@
       <name>Youngest3YearOldFree</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>12</executionTimeResult>
+      <executionTimeResult>46</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -129,13 +129,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
-      <expectedCount>1</expectedCount>
       <explanation>Rule [Youngest3YearOldFree] activated 0 times. Expected 1 times.</explanation>
+      <expectedFire>true</expectedFire>
       <successResult>false</successResult>
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 00:59:46.943 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 01:31:54.802 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
