@@ -13,7 +13,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>AgeCalculationYear(p1.birthDate,q.quoteDate)</value>
+          <value>47.75</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -30,7 +30,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>AgeCalculationYear(p2.birthDate,q.quoteDate)</value>
+          <value>3.5</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -47,7 +47,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>AgeCalculationYear(p4.birthDate,q.quoteDate)</value>
+          <value>40</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -103,7 +103,7 @@
         </field-data>
         <field-data>
           <name>age</name>
-          <value>AgeCalculationYear(p3.birthDate,q.quoteDate)</value>
+          <value>44</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -166,7 +166,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 07:23:47.928 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 07:43:47.874 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
