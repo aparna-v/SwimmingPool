@@ -5,5 +5,6 @@ import java.lang.Number;
 rule "CalcAgeFromCurrentDate"
 	dialect "mvel"
 	when
+		exists (Person( )) 
 	then
 end
