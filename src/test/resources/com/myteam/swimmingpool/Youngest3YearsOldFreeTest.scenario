@@ -87,12 +87,21 @@
       <name>per</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>promotion</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace>
+      <executionTimeResult>44</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>47.75</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[p1] field [age] was [] expected [47.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -105,6 +114,9 @@
         <expect-field>
           <fieldName>age</fieldName>
           <expected>3.5</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[p2] field [age] was [] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -115,8 +127,12 @@
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
       <expectedCount>1</expectedCount>
+      <explanation>Rule [Youngest3YearOldFree] activated 0 times. Expected 1 times.</explanation>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
+  <lastRunResult>2018-07-09 00:55:58.769 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
