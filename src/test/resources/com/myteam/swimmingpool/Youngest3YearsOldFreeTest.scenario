@@ -75,18 +75,6 @@
       <name>sp</name>
       <isModify>false</isModify>
     </fact-data>
-    <fact-data>
-      <type>InsertPeriod</type>
-      <fieldData>
-        <field-data>
-          <name>enumValue</name>
-          <value>Day</value>
-          <nature>4</nature>
-        </field-data>
-      </fieldData>
-      <name>per</name>
-      <isModify>false</isModify>
-    </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>promotion</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
@@ -94,7 +82,7 @@
       <name>Youngest3YearOldFree</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>47</executionTimeResult>
+      <executionTimeResult>48</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -135,7 +123,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 06:16:51.947 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 06:23:04.69 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
