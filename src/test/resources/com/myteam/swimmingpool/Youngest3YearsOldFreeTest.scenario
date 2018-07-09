@@ -91,8 +91,8 @@
       <name>promotion</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>134</executionTimeResult>
-      <numberOfRulesFired>6</numberOfRulesFired>
+      <executionTimeResult>120</executionTimeResult>
+      <numberOfRulesFired>4</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -132,7 +132,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 06:45:59.905 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 06:49:23.309 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
