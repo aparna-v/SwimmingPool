@@ -87,6 +87,9 @@
       <name>per</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>promotion</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>134</executionTimeResult>
       <numberOfRulesFired>6</numberOfRulesFired>
