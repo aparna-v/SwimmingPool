@@ -20,7 +20,7 @@
       <fieldData>
         <field-data>
           <name>quoteDate</name>
-          <value>05-Jul-2018</value>
+          <value>06-Jul-2018</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -34,7 +34,7 @@
       <name>init</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>64</executionTimeResult>
+      <executionTimeResult>161</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -42,9 +42,9 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>true</expected>
-          <actualResult>No match</actualResult>
-          <successResult>true</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [true].</explanation>
+          <actualResult>false</actualResult>
+          <successResult>false</successResult>
+          <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [true].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -54,10 +54,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>isPersonBirthday</ruleName>
+      <explanation>Rule [isPersonBirthday] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-06 14:17:49.232 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 05:57:47.939 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
