@@ -27,18 +27,21 @@
       <name>q</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>init</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>161</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>27</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>true</expected>
-          <actualResult>false</actualResult>
+          <actualResult>No match</actualResult>
           <successResult>false</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [true].</explanation>
+          <explanation>Fact of type [CalculatedAttribute] was not found in the results.</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -48,13 +51,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>isPersonBirthday</ruleName>
-      <explanation>Rule [isPersonBirthday] was activated 1 times.</explanation>
+      <explanation>Rule [isPersonBirthday] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-09 05:57:47.939 UTC</lastRunResult>
+  <lastRunResult>2018-07-09 06:48:18.724 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
