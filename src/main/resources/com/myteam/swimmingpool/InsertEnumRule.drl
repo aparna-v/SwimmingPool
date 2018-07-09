@@ -1,7 +1,6 @@
 package com.myteam.swimmingpool;
 
 import java.lang.Number;
-import com.myteam.swimmingpool.SeasonType;
 import com.myteam.swimmingpool.Period;
 
 rule "InsertEnumRule"
@@ -11,7 +10,7 @@ rule "InsertEnumRule"
         InsertPeriod(eVal : enumValue!=null)
     then
         Period p = new Period();
-        p.setSeasonType(SeasonType.valueOf(eVal));
+        p.setSeasonType(eVal);
         insert(p);
 end    
 
