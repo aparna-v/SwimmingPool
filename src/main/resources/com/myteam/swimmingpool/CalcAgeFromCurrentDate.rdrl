@@ -5,6 +5,9 @@ import java.lang.Number;
 rule "CalcAgeFromCurrentDate"
 	dialect "mvel"
 	when
-		exists (Person( bdate : birthDate != null , age == null ) and Quote( curDate : quoteDate != null )) 
+		exists (pp : Person( bdate : birthDate != null , age == null ) and Quote( curDate : quoteDate != null )) 
 	then
+		Person pp = new Person();
+		pp.setAge(  );
+		insert( pp );
 end
