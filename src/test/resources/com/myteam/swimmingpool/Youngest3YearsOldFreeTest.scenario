@@ -68,7 +68,7 @@
       <fieldData>
         <field-data>
           <name>processId</name>
-          <value>src.P0000</value>
+          <value>com.myteam.swimmingpool.P0000</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
