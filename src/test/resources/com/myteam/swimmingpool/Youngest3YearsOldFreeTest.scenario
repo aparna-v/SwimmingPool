@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>170</executionTimeResult>
+      <executionTimeResult>156</executionTimeResult>
       <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -144,8 +144,8 @@
           <fieldName>stringValue</fieldName>
           <expected>true</expected>
           <actualResult>false</actualResult>
-          <successResult>false</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [Person is free].</explanation>
+          <successResult>true</successResult>
+          <explanation>[CalculatedAttribute] field [stringValue] was [true].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -192,10 +192,10 @@
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
-          <expected>43.75</expected>
-          <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[p3] field [age] was [43.75].</explanation>
+          <expected>44</expected>
+          <actualResult>44.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p3] field [age] was [44.0] expected [43.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -227,8 +227,8 @@
           <fieldName>standardPrice</fieldName>
           <expected>12</expected>
           <actualResult>12</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p4] field [standardPrice] was [12] expected [].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p4] field [standardPrice] was [12].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -238,10 +238,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>isPersonBirthday</ruleName>
+      <explanation>Rule [isPersonBirthday] was activated 4 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 06:39:32.710 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 08:54:59.148 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
