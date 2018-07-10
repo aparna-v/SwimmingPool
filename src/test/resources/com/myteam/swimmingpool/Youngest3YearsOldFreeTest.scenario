@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>155</executionTimeResult>
-      <numberOfRulesFired>15</numberOfRulesFired>
+      <executionTimeResult>164</executionTimeResult>
+      <numberOfRulesFired>12</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -126,7 +126,7 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>true</expected>
-          <actualResult>Person is free</actualResult>
+          <actualResult>false</actualResult>
           <successResult>true</successResult>
           <explanation>[CalculatedAttribute] field [stringValue] was [true].</explanation>
           <operator>==</operator>
@@ -145,10 +145,10 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
-      <expectedCount>4</expectedCount>
-      <explanation>Rule [Youngest3YearOldFree] activated 4 times.</explanation>
-      <successResult>true</successResult>
-      <actualResult>4</actualResult>
+      <expectedCount>1</expectedCount>
+      <explanation>Rule [Youngest3YearOldFree] activated 1 times. Expected 4 times.</explanation>
+      <successResult>false</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-rule>
       <ruleName>InsertEnumRule</ruleName>
@@ -202,7 +202,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 16:14:45.240 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:19:17.593 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
