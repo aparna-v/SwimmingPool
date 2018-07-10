@@ -68,7 +68,7 @@
       <fieldData>
         <field-data>
           <name>processId</name>
-          <value>src.P0000</value>
+          <value>src.P1000</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>280</executionTimeResult>
+      <executionTimeResult>154</executionTimeResult>
       <numberOfRulesFired>18</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -143,7 +143,7 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>Person is free</expected>
-          <actualResult>false</actualResult>
+          <actualResult>true</actualResult>
           <successResult>true</successResult>
           <explanation>[CalculatedAttribute] field [stringValue] was [Person is free].</explanation>
           <operator>==</operator>
@@ -244,7 +244,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 12:53:47.370 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 12:54:22.592 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
