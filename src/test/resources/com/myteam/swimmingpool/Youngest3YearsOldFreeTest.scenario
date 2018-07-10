@@ -63,15 +63,9 @@
       <name>p3</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>init</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>promotion</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>170</executionTimeResult>
-      <numberOfRulesFired>8</numberOfRulesFired>
+      <executionTimeResult>33</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -79,8 +73,8 @@
           <fieldName>age</fieldName>
           <expected>47.75</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[p1] field [age] was [47.75].</explanation>
+          <successResult>false</successResult>
+          <explanation>[p1] field [age] was [] expected [47.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -94,8 +88,8 @@
           <fieldName>age</fieldName>
           <expected>3.5</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[p2] field [age] was [3.5].</explanation>
+          <successResult>false</successResult>
+          <explanation>[p2] field [age] was [] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -108,9 +102,9 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>Person is free</expected>
-          <actualResult>false</actualResult>
+          <actualResult>No match</actualResult>
           <successResult>false</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [Person is free].</explanation>
+          <explanation>Fact of type [CalculatedAttribute] was not found in the results.</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -120,13 +114,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
-      <explanation>Rule [CalcAgeFromCurrentDate] was activated 4 times.</explanation>
+      <explanation>Rule [CalcAgeFromCurrentDate] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>4</actualResult>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 01:35:24.8 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 01:36:01.403 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
