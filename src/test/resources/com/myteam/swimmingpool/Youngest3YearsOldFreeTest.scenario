@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>155</executionTimeResult>
-      <numberOfRulesFired>9</numberOfRulesFired>
+      <executionTimeResult>195</executionTimeResult>
+      <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -143,8 +143,12 @@
       <successResult>true</successResult>
       <actualResult>4</actualResult>
     </expect-rule>
+    <expect-rule>
+      <ruleName>Youngest3YearOldFree</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 01:41:30.551 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 02:54:40.349 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
