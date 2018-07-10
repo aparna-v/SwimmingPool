@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>301</executionTimeResult>
+      <executionTimeResult>186</executionTimeResult>
       <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -177,8 +177,8 @@
           <fieldName>age</fieldName>
           <expected>43.75</expected>
           <actualResult>43.75</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p3] field [age] was [43.75] expected [40].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p3] field [age] was [43.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -192,8 +192,8 @@
           <fieldName>age</fieldName>
           <expected>39.75</expected>
           <actualResult>39.75</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p4] field [age] was [39.75] expected [44].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p4] field [age] was [39.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -202,9 +202,11 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-10 05:57:37.745 UTC</lastRunResult>
-  <rules/>
-  <inclusive>true</inclusive>
+  <lastRunResult>2018-07-10 06:08:07.293 UTC</lastRunResult>
+  <rules>
+    <string>isPersonBirthday</string>
+  </rules>
+  <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
   <imports>
     <imports/>
