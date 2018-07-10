@@ -7,7 +7,7 @@ rule "CalcAgeFromCurrentDate"
 	ruleflow-group "promotion"
 	salience 100
 	when
-		pp : Person( bdate : birthDate != null , age == ( -1.0 ) )
+		pp : Person( bdate : birthDate != null )
 		Quote( curDate : quoteDate != null )
 	then
 		modify( pp ) {
