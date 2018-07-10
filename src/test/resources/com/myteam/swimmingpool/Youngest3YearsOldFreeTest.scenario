@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>177</executionTimeResult>
+      <executionTimeResult>301</executionTimeResult>
       <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -166,13 +166,19 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Row 2 StandardPrice</ruleName>
+      <explanation>Rule [Row 2 StandardPrice] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
-          <expected>40</expected>
+          <expected>43.75</expected>
+          <actualResult>43.75</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p3] field [age] was [43.75] expected [40].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -184,16 +190,19 @@
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
-          <expected>44</expected>
+          <expected>39.75</expected>
+          <actualResult>39.75</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p4] field [age] was [39.75] expected [44].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p4</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-10 03:18:33.479 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 05:57:37.745 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
