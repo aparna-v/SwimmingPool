@@ -75,9 +75,6 @@
       <name>per</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>promotion</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <fact-data>
       <type>Person</type>
       <fieldData>
@@ -93,16 +90,19 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>init</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>promotion</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>85</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>276</executionTimeResult>
+      <numberOfRulesFired>8</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>47.75</expected>
-          <actualResult>47.0</actualResult>
+          <actualResult>-1.0</actualResult>
           <successResult>true</successResult>
           <explanation>[p1] field [age] was [47.75].</explanation>
           <operator>==</operator>
@@ -117,7 +117,7 @@
         <expect-field>
           <fieldName>age</fieldName>
           <expected>3.5</expected>
-          <actualResult></actualResult>
+          <actualResult>-1.0</actualResult>
           <successResult>true</successResult>
           <explanation>[p2] field [age] was [3.5].</explanation>
           <operator>==</operator>
@@ -130,18 +130,18 @@
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
       <expectedCount>1</expectedCount>
-      <explanation>Rule [Youngest3YearOldFree] activated 1 times.</explanation>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
+      <explanation>Rule [Youngest3YearOldFree] activated 0 times. Expected 1 times.</explanation>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>Person is free</expected>
-          <actualResult>Person is free</actualResult>
+          <actualResult>false</actualResult>
           <successResult>false</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [Person is free] expected [Person is Free].</explanation>
+          <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [Person is free].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -150,7 +150,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-09 08:27:17.278 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 01:20:01.630 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
