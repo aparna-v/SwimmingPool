@@ -7,7 +7,8 @@ rule "Youngest3YearOldFree"
 	dialect "mvel"
 	ruleflow-group "promotion"
 	when
-		Person( age == null )
+		List( size() > 3 ) from collect ( 
+Person( age == null )) 
 	then
 		CalculatedAttribute fact1 = new CalculatedAttribute();
 		fact1.setKey( "Youngest3YearOldFree" );
