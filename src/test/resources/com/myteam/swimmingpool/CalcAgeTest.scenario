@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>birthDate</name>
-          <value>02-Feb-2010</value>
+          <value>10-Jul-2010</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -27,7 +27,26 @@
       <name>q</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>init</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace/>
+    <expect-rule>
+      <ruleName>CalcAgeFromCurrentDate</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>age</fieldName>
+          <expected>8</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>p</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
