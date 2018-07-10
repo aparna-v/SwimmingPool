@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>195</executionTimeResult>
+      <executionTimeResult>286</executionTimeResult>
       <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -145,10 +145,21 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
+      <explanation>Rule [Youngest3YearOldFree] was not activated. Expected it to be activated.</explanation>
+      <expectedFire>true</expectedFire>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>InsertEnumRule</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>StartProcessRule</ruleName>
       <expectedFire>true</expectedFire>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 02:54:40.349 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 03:14:37.197 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
