@@ -66,11 +66,8 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>init</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>promotion</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>30</executionTimeResult>
+      <executionTimeResult>35</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -126,7 +123,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 01:36:16.4 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 01:37:49.627 UTC</lastRunResult>
   <rules>
     <string>CalcAgeFromCurrentDate</string>
     <string>Youngest3YearOldFree</string>
