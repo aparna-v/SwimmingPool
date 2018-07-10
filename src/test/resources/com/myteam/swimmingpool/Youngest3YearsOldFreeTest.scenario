@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>286</executionTimeResult>
+      <executionTimeResult>177</executionTimeResult>
       <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -152,14 +152,24 @@
     </expect-rule>
     <expect-rule>
       <ruleName>InsertEnumRule</ruleName>
+      <explanation>Rule [InsertEnumRule] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-rule>
       <ruleName>StartProcessRule</ruleName>
+      <explanation>Rule [StartProcessRule] was activated 1 times.</explanation>
+      <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>Row 2 StandardPrice</ruleName>
       <expectedFire>true</expectedFire>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 03:14:37.197 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 03:18:33.479 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
