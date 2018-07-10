@@ -8,4 +8,7 @@ rule "CalcAgeFromCurrentDate"
 		pp : Person( bdate : birthDate != null , age == null )
 		Quote( curDate : quoteDate != null )
 	then
+		modify( pp ) {
+				setAge( AgeCalculationYear(bdate,curDate) )
+		}
 end
