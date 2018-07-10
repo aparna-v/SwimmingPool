@@ -223,6 +223,12 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
+        <expect-field>
+          <fieldName>standardPrice</fieldName>
+          <expected></expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
       </fieldValues>
       <name>p4</name>
       <anonymous>false</anonymous>
