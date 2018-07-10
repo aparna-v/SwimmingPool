@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>258</executionTimeResult>
+      <executionTimeResult>210</executionTimeResult>
       <numberOfRulesFired>18</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -142,7 +142,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>stringValue</fieldName>
-          <expected>Person is free</expected>
+          <expected>true</expected>
           <actualResult>false</actualResult>
           <successResult>true</successResult>
           <explanation>[CalculatedAttribute] field [stringValue] was [Person is free].</explanation>
@@ -183,9 +183,9 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Row 2 StandardPrice</ruleName>
-      <explanation>Rule [Row 2 StandardPrice] was activated 1 times.</explanation>
+      <explanation>Rule [Row 2 StandardPrice] was activated 1 times, but expected none.</explanation>
       <expectedFire>false</expectedFire>
-      <successResult>true</successResult>
+      <successResult>false</successResult>
       <actualResult>1</actualResult>
     </expect-rule>
     <expect-fact>
@@ -244,7 +244,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 13:09:46.474 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:07:43.700 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
