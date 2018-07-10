@@ -149,6 +149,10 @@
       <name>CalculatedAttribute</name>
       <anonymous>true</anonymous>
     </expect-fact>
+    <expect-rule>
+      <ruleName>CalcAgeFromCurrentDate</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
   <lastRunResult>2018-07-10 01:20:01.630 UTC</lastRunResult>
   <rules/>
