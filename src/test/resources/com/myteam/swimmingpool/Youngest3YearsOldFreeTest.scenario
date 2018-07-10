@@ -102,6 +102,12 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
+        <expect-field>
+          <fieldName>standardPrice</fieldName>
+          <expected>12</expected>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
       </fieldValues>
       <name>p1</name>
       <anonymous>false</anonymous>
@@ -116,6 +122,12 @@
           <explanation>[p2] field [age] was [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>standardPrice</fieldName>
+          <expected></expected>
+          <operator>==</operator>
+          <nature>0</nature>
         </expect-field>
       </fieldValues>
       <name>p2</name>
@@ -199,21 +211,6 @@
         </expect-field>
       </fieldValues>
       <name>p4</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <actualResult>12</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p1] field [standardPrice] was [12] expected [].</explanation>
-          <operator>==</operator>
-          <nature>0</nature>
-        </expect-field>
-      </fieldValues>
-      <name>p1</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
