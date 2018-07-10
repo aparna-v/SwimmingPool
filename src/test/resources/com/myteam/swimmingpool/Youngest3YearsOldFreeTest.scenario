@@ -63,21 +63,12 @@
       <name>p3</name>
       <isModify>false</isModify>
     </fact-data>
-    <fact-data>
-      <type>StartProcess</type>
-      <fieldData>
-        <field-data>
-          <name>processId</name>
-          <value>src.P1000</value>
-          <nature>4</nature>
-        </field-data>
-      </fieldData>
-      <name>sp</name>
-      <isModify>false</isModify>
-    </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>promotion</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>156</executionTimeResult>
-      <numberOfRulesFired>12</numberOfRulesFired>
+      <numberOfRulesFired>10</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -169,7 +160,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-10 16:26:04.393 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:26:38.335 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
