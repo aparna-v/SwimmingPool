@@ -4,7 +4,7 @@ import java.lang.Number;
 
 rule "CalcAgeFromCurrentDate"
 	dialect "mvel"
-	ruleflow-group "init"
+	ruleflow-group "promotion"
 	salience 100
 	when
 		pp : Person( bdate : birthDate != null , age == ( -1.0 ) )
