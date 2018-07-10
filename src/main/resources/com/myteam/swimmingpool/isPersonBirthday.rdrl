@@ -16,6 +16,7 @@ rule "isPersonBirthday"
 		insert( ica );
 		pper.getCalculatedAttributeList().add(ica);
 		modify( pper ) {
-				setCalculatedAttributeList( pper.getCalculatedAttributeList() )
+				setCalculatedAttributeList( pper.getCalculatedAttributeList() ), 
+				setAge( -1 )
 		}
 end
