@@ -30,24 +30,57 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>init</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <fact-data>
+      <type>Person</type>
+      <fieldData>
+        <field-data>
+          <name>birthDate</name>
+          <value>10-Jul-2015</value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>p2</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace>
+      <executionTimeResult>109</executionTimeResult>
+      <numberOfRulesFired>2</numberOfRulesFired>
+    </execution-trace>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
+      <explanation>Rule [CalcAgeFromCurrentDate] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>8</expected>
+          <successResult>true</successResult>
+          <explanation>[p] field [age] was [8].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p</name>
       <anonymous>false</anonymous>
     </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>age</fieldName>
+          <expected>3</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>p2</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
+  <lastRunResult>2018-07-10 01:27:43.665 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
