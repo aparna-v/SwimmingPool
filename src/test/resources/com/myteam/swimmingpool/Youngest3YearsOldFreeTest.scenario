@@ -75,20 +75,8 @@
       <name>sp</name>
       <isModify>false</isModify>
     </fact-data>
-    <fact-data>
-      <type>InsertPeriod</type>
-      <fieldData>
-        <field-data>
-          <name>enumValue</name>
-          <value>Day</value>
-          <nature>4</nature>
-        </field-data>
-      </fieldData>
-      <name>per</name>
-      <isModify>false</isModify>
-    </fact-data>
     <execution-trace>
-      <executionTimeResult>170</executionTimeResult>
+      <executionTimeResult>156</executionTimeResult>
       <numberOfRulesFired>12</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -128,7 +116,7 @@
           <expected>Person is free</expected>
           <actualResult>false</actualResult>
           <successResult>true</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [true].</explanation>
+          <explanation>[CalculatedAttribute] field [stringValue] was [Person is free].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -147,20 +135,6 @@
       <ruleName>Youngest3YearOldFree</ruleName>
       <expectedCount>1</expectedCount>
       <explanation>Rule [Youngest3YearOldFree] activated 1 times.</explanation>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
-    </expect-rule>
-    <expect-rule>
-      <ruleName>InsertEnumRule</ruleName>
-      <explanation>Rule [InsertEnumRule] was activated 1 times.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
-    </expect-rule>
-    <expect-rule>
-      <ruleName>StartProcessRule</ruleName>
-      <explanation>Rule [StartProcessRule] was activated 1 times.</explanation>
-      <expectedFire>true</expectedFire>
       <successResult>true</successResult>
       <actualResult>1</actualResult>
     </expect-rule>
@@ -194,15 +168,8 @@
       <name>p4</name>
       <anonymous>false</anonymous>
     </expect-fact>
-    <expect-rule>
-      <ruleName>isPersonBirthday</ruleName>
-      <expectedCount>4</expectedCount>
-      <explanation>Rule [isPersonBirthday] activated 4 times.</explanation>
-      <successResult>true</successResult>
-      <actualResult>4</actualResult>
-    </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 16:19:30.992 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:26:04.393 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
