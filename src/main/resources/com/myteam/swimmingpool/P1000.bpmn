@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:drools="http://www.jboss.org/drools" id="_CVrFsIQ_EeilZNMdsLvDxQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" targetNamespace="http://www.omg.org/bpmn20">
+  <bpmn2:process id="SwimmingPool.P1000" drools:packageName="com.myteam.swimmingpool" drools:version="1.0" name="P1000" isExecutable="true">
+    <bpmn2:startEvent id="E498F3C3-5397-41D4-A332-89A4C5209873" name="">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+    </bpmn2:startEvent>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="_CVrFsYQ_EeilZNMdsLvDxQ">
+    <bpmndi:BPMNPlane id="_CVrFsoQ_EeilZNMdsLvDxQ" bpmnElement="SwimmingPool.P1000">
+      <bpmndi:BPMNShape id="_CVrFs4Q_EeilZNMdsLvDxQ" bpmnElement="E498F3C3-5397-41D4-A332-89A4C5209873">
+        <dc:Bounds x="100.0" y="100.0"/>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmn2:relationship id="_CVrFtIQ_EeilZNMdsLvDxQ" type="BPSimData">
+    <bpmn2:extensionElements>
+      <bpsim:BPSimData>
+        <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
+          <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="E498F3C3-5397-41D4-A332-89A4C5209873" id="_CVrFtYQ_EeilZNMdsLvDxQ">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+          </bpsim:ElementParameters>
+        </bpsim:Scenario>
+      </bpsim:BPSimData>
+    </bpmn2:extensionElements>
+    <bpmn2:source>_CVrFsIQ_EeilZNMdsLvDxQ</bpmn2:source>
+    <bpmn2:target>_CVrFsIQ_EeilZNMdsLvDxQ</bpmn2:target>
+  </bpmn2:relationship>
+</bpmn2:definitions>
