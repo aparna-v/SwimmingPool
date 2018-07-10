@@ -168,6 +168,30 @@
       <ruleName>Row 2 StandardPrice</ruleName>
       <expectedFire>true</expectedFire>
     </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>age</fieldName>
+          <expected>40</expected>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>p3</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>age</fieldName>
+          <expected>44</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>p4</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
   <lastRunResult>2018-07-10 03:18:33.479 UTC</lastRunResult>
   <rules/>
