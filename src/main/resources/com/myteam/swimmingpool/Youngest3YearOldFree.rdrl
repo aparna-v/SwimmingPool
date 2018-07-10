@@ -9,7 +9,7 @@ rule "Youngest3YearOldFree"
 	salience 50
 	when
 		List( size() > 3 ) from collect ( 
-Person( age == null )) 
+Person( age > 3 )) 
 	then
 		CalculatedAttribute fact1 = new CalculatedAttribute();
 		fact1.setKey( "Youngest3YearOldFree" );
