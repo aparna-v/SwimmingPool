@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>210</executionTimeResult>
-      <numberOfRulesFired>18</numberOfRulesFired>
+      <executionTimeResult>267</executionTimeResult>
+      <numberOfRulesFired>15</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -105,8 +105,9 @@
         <expect-field>
           <fieldName>standardPrice</fieldName>
           <expected>12</expected>
-          <successResult>true</successResult>
-          <explanation>[p1] field [standardPrice] was [12].</explanation>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p1] field [standardPrice] was [-1.0] expected [12].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -145,7 +146,7 @@
           <expected>true</expected>
           <actualResult>false</actualResult>
           <successResult>true</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [Person is free].</explanation>
+          <explanation>[CalculatedAttribute] field [stringValue] was [true].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -202,9 +203,9 @@
         <expect-field>
           <fieldName>standardPrice</fieldName>
           <expected>12</expected>
-          <actualResult>12</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p3] field [standardPrice] was [12].</explanation>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p3] field [standardPrice] was [-1.0] expected [12].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -226,9 +227,9 @@
         <expect-field>
           <fieldName>standardPrice</fieldName>
           <expected>12</expected>
-          <actualResult>12</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p4] field [standardPrice] was [12].</explanation>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p4] field [standardPrice] was [-1.0] expected [12].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -244,7 +245,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 16:07:43.700 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:12:30.375 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
