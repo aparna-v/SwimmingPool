@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>186</executionTimeResult>
-      <numberOfRulesFired>14</numberOfRulesFired>
+      <executionTimeResult>52</executionTimeResult>
+      <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -97,8 +97,8 @@
           <fieldName>age</fieldName>
           <expected>47.75</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[p1] field [age] was [47.75].</explanation>
+          <successResult>false</successResult>
+          <explanation>[p1] field [age] was [] expected [47.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -112,8 +112,8 @@
           <fieldName>age</fieldName>
           <expected>3.5</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[p2] field [age] was [3.5].</explanation>
+          <successResult>false</successResult>
+          <explanation>[p2] field [age] was [] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -126,9 +126,9 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>Person is free</expected>
-          <actualResult>false</actualResult>
+          <actualResult>No match</actualResult>
           <successResult>false</successResult>
-          <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [Person is free].</explanation>
+          <explanation>Fact of type [CalculatedAttribute] was not found in the results.</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -138,10 +138,10 @@
     </expect-fact>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
-      <explanation>Rule [CalcAgeFromCurrentDate] was activated 4 times.</explanation>
+      <explanation>Rule [CalcAgeFromCurrentDate] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>4</actualResult>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
@@ -166,19 +166,19 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Row 2 StandardPrice</ruleName>
-      <explanation>Rule [Row 2 StandardPrice] was activated 1 times.</explanation>
+      <explanation>Rule [Row 2 StandardPrice] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>43.75</expected>
-          <actualResult>43.75</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p3] field [age] was [43.75].</explanation>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[p3] field [age] was [] expected [43.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -191,9 +191,9 @@
         <expect-field>
           <fieldName>age</fieldName>
           <expected>39.75</expected>
-          <actualResult>39.75</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p4] field [age] was [39.75].</explanation>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[p4] field [age] was [] expected [39.75].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -202,10 +202,8 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-10 06:08:07.293 UTC</lastRunResult>
-  <rules>
-    <string>isPersonBirthday</string>
-  </rules>
+  <lastRunResult>2018-07-10 06:09:44.960 UTC</lastRunResult>
+  <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
   <imports>
