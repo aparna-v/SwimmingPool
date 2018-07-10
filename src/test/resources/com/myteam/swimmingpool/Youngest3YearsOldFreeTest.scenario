@@ -124,6 +124,8 @@
   <rules>
     <string>CalcAgeFromCurrentDate</string>
     <string>Youngest3YearOldFree</string>
+    <string>StartProcessRule</string>
+    <string>InsertEnumRule</string>
   </rules>
   <inclusive>true</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
