@@ -68,7 +68,7 @@
       <fieldData>
         <field-data>
           <name>processId</name>
-          <value>src.P1000</value>
+          <value>src.P0000</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>264</executionTimeResult>
+      <executionTimeResult>280</executionTimeResult>
       <numberOfRulesFired>18</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -143,7 +143,7 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>Person is free</expected>
-          <actualResult>true</actualResult>
+          <actualResult>false</actualResult>
           <successResult>true</successResult>
           <explanation>[CalculatedAttribute] field [stringValue] was [Person is free].</explanation>
           <operator>==</operator>
@@ -156,14 +156,14 @@
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
       <expectedCount>4</expectedCount>
-      <explanation>Rule [CalcAgeFromCurrentDate] was activated 4 times.</explanation>
+      <explanation>Rule [CalcAgeFromCurrentDate] activated 4 times.</explanation>
       <successResult>true</successResult>
       <actualResult>4</actualResult>
     </expect-rule>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
       <expectedCount>4</expectedCount>
-      <explanation>Rule [Youngest3YearOldFree] was activated 4 times.</explanation>
+      <explanation>Rule [Youngest3YearOldFree] activated 4 times.</explanation>
       <successResult>true</successResult>
       <actualResult>4</actualResult>
     </expect-rule>
@@ -239,12 +239,12 @@
     <expect-rule>
       <ruleName>isPersonBirthday</ruleName>
       <expectedCount>4</expectedCount>
-      <explanation>Rule [isPersonBirthday] was activated 4 times.</explanation>
+      <explanation>Rule [isPersonBirthday] activated 4 times.</explanation>
       <successResult>true</successResult>
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 10:08:26.550 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 12:53:47.370 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
