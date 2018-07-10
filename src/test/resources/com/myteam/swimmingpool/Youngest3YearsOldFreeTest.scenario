@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>155</executionTimeResult>
+      <executionTimeResult>158</executionTimeResult>
       <numberOfRulesFired>15</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -119,10 +119,10 @@
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
-          <expected>3.5</expected>
-          <actualResult>5.874429223744292</actualResult>
+          <expected>6</expected>
+          <actualResult>6.0</actualResult>
           <successResult>false</successResult>
-          <explanation>[p2] field [age] was [5.874429223744292] expected [3.5].</explanation>
+          <explanation>[p2] field [age] was [6.0] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -245,7 +245,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 16:13:45.82 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:14:29.847 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
