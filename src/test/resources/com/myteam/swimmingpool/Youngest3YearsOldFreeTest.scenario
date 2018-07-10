@@ -63,6 +63,9 @@
       <name>p3</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>init</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>30</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
