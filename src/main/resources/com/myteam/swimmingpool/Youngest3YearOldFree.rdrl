@@ -17,4 +17,8 @@ Person( age >= 3 ))
 		fact1.setKey( "Youngest3YearOldFree" );
 		fact1.setStringValue( "Person is free" );
 		insert( fact1 );
+		aPerson.getCalculatedAttributeList().add(fact1);
+		modify( aPerson ) {
+				setCalculatedAttributeList( aPerson.getCalculatedAttributeList() )
+		}
 end
