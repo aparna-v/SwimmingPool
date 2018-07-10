@@ -64,7 +64,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>33</executionTimeResult>
+      <executionTimeResult>30</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -120,9 +120,12 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 01:36:01.403 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <lastRunResult>2018-07-10 01:36:16.4 UTC</lastRunResult>
+  <rules>
+    <string>CalcAgeFromCurrentDate</string>
+    <string>Youngest3YearOldFree</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
   <imports>
     <imports/>
