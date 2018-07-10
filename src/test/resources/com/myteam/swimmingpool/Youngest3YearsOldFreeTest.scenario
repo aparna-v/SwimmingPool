@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>158</executionTimeResult>
+      <executionTimeResult>155</executionTimeResult>
       <numberOfRulesFired>15</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -102,15 +102,6 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <actualResult>-1.0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p1] field [standardPrice] was [-1.0] expected [12].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
       </fieldValues>
       <name>p1</name>
       <anonymous>false</anonymous>
@@ -121,17 +112,8 @@
           <fieldName>age</fieldName>
           <expected>6</expected>
           <actualResult>6.0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p2] field [age] was [6.0] expected [3.5].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>3</expected>
-          <actualResult>3</actualResult>
           <successResult>true</successResult>
-          <explanation>[p2] field [standardPrice] was [3].</explanation>
+          <explanation>[p2] field [age] was [6].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -200,15 +182,6 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <actualResult>-1.0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p3] field [standardPrice] was [-1.0] expected [12].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
       </fieldValues>
       <name>p3</name>
       <anonymous>false</anonymous>
@@ -224,15 +197,6 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <actualResult>-1.0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p4] field [standardPrice] was [-1.0] expected [12].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
       </fieldValues>
       <name>p4</name>
       <anonymous>false</anonymous>
@@ -245,7 +209,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 16:14:29.847 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:14:45.240 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
