@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>177</executionTimeResult>
+      <executionTimeResult>187</executionTimeResult>
       <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -129,10 +129,10 @@
           <fieldName>standardPrice</fieldName>
           <expected>3</expected>
           <actualResult>3</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p2] field [standardPrice] was [3] expected [].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p2] field [standardPrice] was [3].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p2</name>
@@ -201,7 +201,10 @@
         </expect-field>
         <expect-field>
           <fieldName>standardPrice</fieldName>
-          <expected></expected>
+          <expected>12</expected>
+          <actualResult>12</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p3] field [standardPrice] was [12] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -225,7 +228,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-10 06:38:41.526 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 06:39:03.747 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
