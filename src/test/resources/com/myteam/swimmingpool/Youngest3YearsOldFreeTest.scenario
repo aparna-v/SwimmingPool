@@ -11,11 +11,6 @@
           <value>23-Aug-1968</value>
           <nature>1</nature>
         </field-data>
-        <field-data>
-          <name>age</name>
-          <value>47.75</value>
-          <nature>4</nature>
-        </field-data>
       </fieldData>
       <name>p1</name>
       <isModify>false</isModify>
@@ -28,11 +23,6 @@
           <value>23-Nov-2012</value>
           <nature>1</nature>
         </field-data>
-        <field-data>
-          <name>age</name>
-          <value>3.5</value>
-          <nature>4</nature>
-        </field-data>
       </fieldData>
       <name>p2</name>
       <isModify>false</isModify>
@@ -44,11 +34,6 @@
           <name>birthDate</name>
           <value>23-Aug-1976</value>
           <nature>1</nature>
-        </field-data>
-        <field-data>
-          <name>age</name>
-          <value>40</value>
-          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>p4</name>
@@ -101,15 +86,13 @@
           <value>23-Aug-1972</value>
           <nature>1</nature>
         </field-data>
-        <field-data>
-          <name>age</name>
-          <value>46</value>
-          <nature>4</nature>
-        </field-data>
       </fieldData>
       <name>p3</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>init</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>85</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
