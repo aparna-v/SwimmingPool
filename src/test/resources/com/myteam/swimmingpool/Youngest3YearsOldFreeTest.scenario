@@ -67,7 +67,7 @@
       <name>init</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>35</executionTimeResult>
+      <executionTimeResult>38</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -123,7 +123,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 01:37:49.627 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 01:38:23.339 UTC</lastRunResult>
   <rules>
     <string>CalcAgeFromCurrentDate</string>
     <string>Youngest3YearOldFree</string>
