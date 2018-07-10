@@ -9,13 +9,9 @@ rule "Youngest3YearOldFree"
 	when
 		List( size() > 3 ) from collect ( 
 Person( age >= 3 )) 
-		aPerson : Person( age == 3.5 )
 	then
 		CalculatedAttribute fact1 = new CalculatedAttribute();
 		fact1.setKey( "Youngest3YearOldFree" );
 		fact1.setStringValue( "Person is free" );
 		insert( fact1 );
-		modify( aPerson ) {
-				setName( "test" )
-		}
 end
