@@ -9,7 +9,7 @@ rule "Youngest3YearOldFree"
 	when
 		List( size() != null ) from collect ( 
 Person( age >= 3 )) 
-		Person( age == ( 3 ) )
+		Person( age == ( 3.5 ) )
 	then
 		CalculatedAttribute fact1 = new CalculatedAttribute();
 		fact1.setKey( "Youngest3YearOldFree" );
