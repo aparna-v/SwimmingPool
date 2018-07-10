@@ -6,5 +6,6 @@ rule "CalcAgeFromCurrentDate"
 	dialect "mvel"
 	when
 		pp : Person( bdate : birthDate != null , age == null )
+		Quote( curDate : quoteDate != null )
 	then
 end
