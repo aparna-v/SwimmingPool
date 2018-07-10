@@ -17,4 +17,7 @@ Person( age >= 3 ))
 		fact1.setKey( "Youngest3YearOldFree" );
 		fact1.setStringValue( "Person is free" );
 		insert( fact1 );
+		modify( aPerson ) {
+				setName( "test" )
+		}
 end
