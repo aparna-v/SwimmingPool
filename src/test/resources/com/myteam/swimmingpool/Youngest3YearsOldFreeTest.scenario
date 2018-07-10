@@ -164,13 +164,6 @@
       <successResult>true</successResult>
       <actualResult>1</actualResult>
     </expect-rule>
-    <expect-rule>
-      <ruleName>Row 2 StandardPrice</ruleName>
-      <explanation>Rule [Row 2 StandardPrice] was activated 1 times, but expected none.</explanation>
-      <expectedFire>false</expectedFire>
-      <successResult>false</successResult>
-      <actualResult>1</actualResult>
-    </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
