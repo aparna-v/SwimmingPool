@@ -20,7 +20,7 @@
       <fieldData>
         <field-data>
           <name>birthDate</name>
-          <value>23-Nov-2012</value>
+          <value>08-Jul-2010</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>267</executionTimeResult>
+      <executionTimeResult>186</executionTimeResult>
       <numberOfRulesFired>15</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -144,7 +144,7 @@
         <expect-field>
           <fieldName>stringValue</fieldName>
           <expected>true</expected>
-          <actualResult>false</actualResult>
+          <actualResult>Person is free</actualResult>
           <successResult>true</successResult>
           <explanation>[CalculatedAttribute] field [stringValue] was [true].</explanation>
           <operator>==</operator>
@@ -245,7 +245,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-10 16:12:30.375 UTC</lastRunResult>
+  <lastRunResult>2018-07-10 16:13:19.726 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
