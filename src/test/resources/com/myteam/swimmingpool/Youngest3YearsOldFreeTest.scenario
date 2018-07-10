@@ -56,7 +56,7 @@
       <fieldData>
         <field-data>
           <name>birthDate</name>
-          <value>23-Aug-1972</value>
+          <value>23-May-1972</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -142,7 +142,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>stringValue</fieldName>
-          <expected>Person is free</expected>
+          <expected>true</expected>
           <actualResult>false</actualResult>
           <successResult>false</successResult>
           <explanation>[CalculatedAttribute] field [stringValue] was [false] expected [Person is free].</explanation>
@@ -230,12 +230,16 @@
           <successResult>false</successResult>
           <explanation>[p4] field [standardPrice] was [12] expected [].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p4</name>
       <anonymous>false</anonymous>
     </expect-fact>
+    <expect-rule>
+      <ruleName>isPersonBirthday</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
   <lastRunResult>2018-07-10 06:39:32.710 UTC</lastRunResult>
   <rules/>
