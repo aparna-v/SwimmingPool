@@ -6,6 +6,7 @@ import java.util.List;
 rule "Youngest3YearOldFree"
 	dialect "mvel"
 	ruleflow-group "promotion"
+	salience 50
 	when
 		List( size() > 3 ) from collect ( 
 Person( age == null )) 
