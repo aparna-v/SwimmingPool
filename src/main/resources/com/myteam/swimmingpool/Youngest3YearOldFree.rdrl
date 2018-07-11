@@ -4,7 +4,7 @@ import java.lang.Number;
 import java.util.List;
 
 rule "Youngest3YearOldFree"
-	dialect "mvel"
+	dialect "java"
 	ruleflow-group "promotion"
 	salience 50
 	when
