@@ -76,6 +76,14 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
+    <expect-rule>
+      <ruleName>CalcAgeFromCurrentDate</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>Youngest3YearOldFree</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
