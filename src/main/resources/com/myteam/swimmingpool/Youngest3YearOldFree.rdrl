@@ -10,8 +10,9 @@ rule "Youngest3YearOldFree"
 	when
 		List( size() > 3 ) from collect ( 
 Person( age >= 3.0 )) 
-		Number( ) from accumulate ( Person( aage : age >= 3.0 ),
+		nn : Number( ) from accumulate ( Person( aage : age >= 3.0 ),
 			min(aage)) 
+		Person( age == ( nn ) , standardPrice != ( -1.0B ) )
 	then
 		CalculatedAttribute fact1 = new CalculatedAttribute();
 		fact1.setKey( "Youngest3YearOldFree" );
