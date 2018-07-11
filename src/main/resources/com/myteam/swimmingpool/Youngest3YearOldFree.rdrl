@@ -23,4 +23,5 @@ Person( age >= 3.0 ))
 		aPrice.setAmount( Sprice );
 		aPrice.setPriceType( Promotion );
 		insert( aPrice );
+		aPerson.addPrice( aPrice );
 end
