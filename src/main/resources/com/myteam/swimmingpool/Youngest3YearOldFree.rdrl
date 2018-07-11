@@ -18,9 +18,4 @@ Person( age >= 3.0 ))
 		fact1.setKey( "Youngest3YearOldFree" );
 		fact1.setStringValue( "Person is free" );
 		insert( fact1 );
-		Price aPrice = new Price();
-		aPrice.setAmount( sPrice );
-		aPrice.setDescription( "YoungestOver3Free" );
-		aPrice.setPriceType( "Promotion" );
-		insert( aPrice );
 end
