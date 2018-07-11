@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>276</executionTimeResult>
-      <numberOfRulesFired>9</numberOfRulesFired>
+      <executionTimeResult>332</executionTimeResult>
+      <numberOfRulesFired>14</numberOfRulesFired>
     </execution-trace>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
@@ -116,12 +116,18 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
+        <expect-field>
+          <fieldName>standardPrice</fieldName>
+          <expected>12</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
       </fieldValues>
       <name>p1</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-11 04:27:38.996 UTC</lastRunResult>
+  <lastRunResult>2018-07-11 09:02:29.798 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
