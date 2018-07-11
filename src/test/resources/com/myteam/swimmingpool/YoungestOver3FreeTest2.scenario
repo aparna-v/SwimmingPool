@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>192</executionTimeResult>
-      <numberOfRulesFired>14</numberOfRulesFired>
+      <executionTimeResult>310</executionTimeResult>
+      <numberOfRulesFired>12</numberOfRulesFired>
     </execution-trace>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
@@ -100,10 +100,10 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
-      <explanation>Rule [Youngest3YearOldFree] was not activated. Expected it to be activated.</explanation>
+      <explanation>Rule [Youngest3YearOldFree] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
@@ -113,14 +113,6 @@
           <actualResult>28.360730593607304</actualResult>
           <successResult>true</successResult>
           <explanation>[p1] field [age] was [28.360730593607304].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <successResult>true</successResult>
-          <explanation>[p1] field [standardPrice] was [12].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -139,15 +131,6 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <actualResult>12</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p2] field [standardPrice] was [12].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
       </fieldValues>
       <name>p2</name>
       <anonymous>false</anonymous>
@@ -163,15 +146,6 @@
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-        <expect-field>
-          <fieldName>standardPrice</fieldName>
-          <expected>12</expected>
-          <actualResult>12</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p3] field [standardPrice] was [12].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
       </fieldValues>
       <name>p3</name>
       <anonymous>false</anonymous>
@@ -182,26 +156,26 @@
           <fieldName>age</fieldName>
           <expected>8.069634703196348</expected>
           <actualResult>8.069634703196348</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p4] field [age] was [8.069634703196348] expected [].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p4] field [age] was [8.069634703196348].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>standardPrice</fieldName>
           <expected>3</expected>
           <actualResult>3</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p4] field [standardPrice] was [3] expected [].</explanation>
+          <successResult>true</successResult>
+          <explanation>[p4] field [standardPrice] was [3].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p4</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-11 09:11:05.350 UTC</lastRunResult>
+  <lastRunResult>2018-07-11 09:14:48.116 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
