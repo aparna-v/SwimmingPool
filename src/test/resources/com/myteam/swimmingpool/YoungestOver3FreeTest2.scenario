@@ -63,6 +63,18 @@
       <name>q</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>StartProcess</type>
+      <fieldData>
+        <field-data>
+          <name>processId</name>
+          <value>P1000</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>sp</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace/>
   </fixtures>
   <rules/>
