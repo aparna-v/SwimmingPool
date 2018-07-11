@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>birthDate</name>
-          <value>02-Mar-1990</value>
+          <value>01-Mar-1990</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -75,16 +75,41 @@
       <name>sp</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>263</executionTimeResult>
+      <numberOfRulesFired>9</numberOfRulesFired>
+    </execution-trace>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
+      <explanation>Rule [CalcAgeFromCurrentDate] was activated 4 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>4</actualResult>
     </expect-rule>
     <expect-rule>
       <ruleName>Youngest3YearOldFree</ruleName>
+      <explanation>Rule [Youngest3YearOldFree] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>age</fieldName>
+          <expected></expected>
+          <actualResult>28.357990867579908</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p1] field [age] was [28.357990867579908] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>p1</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
+  <lastRunResult>2018-07-11 04:23:29.364 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
