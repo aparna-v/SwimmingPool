@@ -23,5 +23,4 @@ Person( age >= 3.0 ))
 		aPrice.setDescription( "YoungestOver3Free" );
 		aPrice.setPriceType( "Promotion" );
 		insert( aPrice );
-		aPerson.addPrice( aPrice );
 end
