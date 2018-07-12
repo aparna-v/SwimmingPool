@@ -11,6 +11,11 @@
           <value>01-Mar-1990</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>standardPrice</name>
+          <value>-1</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>p1</name>
       <isModify>false</isModify>
@@ -22,6 +27,11 @@
           <name>birthDate</name>
           <value>10-Apr-1982</value>
           <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>standardPrice</name>
+          <value>-1</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>p2</name>
@@ -35,6 +45,11 @@
           <value>14-Aug-1976</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>standardPrice</name>
+          <value>-1</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>p3</name>
       <isModify>false</isModify>
@@ -46,6 +61,11 @@
           <name>birthDate</name>
           <value>16-Jun-2010</value>
           <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>standardPrice</name>
+          <value>-1</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>p4</name>
