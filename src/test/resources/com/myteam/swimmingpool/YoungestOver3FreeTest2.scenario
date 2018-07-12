@@ -88,23 +88,9 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>466</executionTimeResult>
-      <numberOfRulesFired>15</numberOfRulesFired>
+      <executionTimeResult>184</executionTimeResult>
+      <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
-    <expect-rule>
-      <ruleName>CalcAgeFromCurrentDate</ruleName>
-      <explanation>Rule [CalcAgeFromCurrentDate] was activated 4 times.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>4</actualResult>
-    </expect-rule>
-    <expect-rule>
-      <ruleName>Youngest3YearOldFree</ruleName>
-      <explanation>Rule [Youngest3YearOldFree] was activated 1 times.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
-    </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
@@ -175,7 +161,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-12 05:25:43.834 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 05:43:14.184 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
