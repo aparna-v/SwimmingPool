@@ -179,7 +179,7 @@
       <expectedFire>false</expectedFire>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 06:05:34.996 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 06:07:19.237 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
