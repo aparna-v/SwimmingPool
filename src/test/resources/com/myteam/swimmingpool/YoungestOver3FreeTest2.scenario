@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>184</executionTimeResult>
+      <executionTimeResult>231</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -160,8 +160,15 @@
       <name>p4</name>
       <anonymous>false</anonymous>
     </expect-fact>
+    <expect-rule>
+      <ruleName>CalcAgeFromCurrentDate</ruleName>
+      <explanation>Rule [CalcAgeFromCurrentDate] was activated 4 times.</explanation>
+      <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>4</actualResult>
+    </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 05:43:14.184 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 05:44:30.174 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
