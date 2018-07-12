@@ -108,7 +108,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>192</executionTimeResult>
+      <executionTimeResult>195</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -196,10 +196,17 @@
     </expect-rule>
     <expect-rule>
       <ruleName>Row 13 StandardPrice</ruleName>
+      <explanation>Rule [Row 13 StandardPrice] was not activated.</explanation>
+      <expectedFire>false</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>0</actualResult>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>Row 3 StandardPrice</ruleName>
       <expectedFire>false</expectedFire>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 06:07:31.466 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 06:11:25.823 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
