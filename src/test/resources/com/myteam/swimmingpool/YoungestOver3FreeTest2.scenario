@@ -64,18 +64,6 @@
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
-      <type>StartProcess</type>
-      <fieldData>
-        <field-data>
-          <name>processId</name>
-          <value>src.P0000</value>
-          <nature>4</nature>
-        </field-data>
-      </fieldData>
-      <name>sp</name>
-      <isModify>false</isModify>
-    </fact-data>
-    <fact-data>
       <type>InsertPeriod</type>
       <fieldData>
         <field-data>
@@ -87,8 +75,20 @@
       <name>per</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>StartProcess</type>
+      <fieldData>
+        <field-data>
+          <name>processId</name>
+          <value>src.101010</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>sp</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
-      <executionTimeResult>248</executionTimeResult>
+      <executionTimeResult>192</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -151,8 +151,8 @@
           <fieldName>standardPrice</fieldName>
           <expected>-1</expected>
           <actualResult>3</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p4] field [standardPrice] was [3].</explanation>
+          <successResult>false</successResult>
+          <explanation>[p4] field [standardPrice] was [3] expected [-1].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -175,7 +175,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 05:56:07.397 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 05:56:25.10 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
