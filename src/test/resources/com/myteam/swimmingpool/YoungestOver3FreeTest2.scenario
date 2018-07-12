@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>231</executionTimeResult>
+      <executionTimeResult>238</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -167,8 +167,15 @@
       <successResult>true</successResult>
       <actualResult>4</actualResult>
     </expect-rule>
+    <expect-rule>
+      <ruleName>isPersonBirthday</ruleName>
+      <explanation>Rule [isPersonBirthday] was activated 4 times.</explanation>
+      <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>4</actualResult>
+    </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 05:44:30.174 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 05:55:30.633 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
