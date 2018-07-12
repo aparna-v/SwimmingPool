@@ -174,8 +174,12 @@
       <successResult>true</successResult>
       <actualResult>4</actualResult>
     </expect-rule>
+    <expect-rule>
+      <ruleName>Row 13 StandardPrice</ruleName>
+      <expectedFire>false</expectedFire>
+    </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 05:56:25.10 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 06:05:34.996 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
