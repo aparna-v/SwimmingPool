@@ -108,7 +108,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>230</executionTimeResult>
+      <executionTimeResult>213</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -124,7 +124,10 @@
         </expect-field>
         <expect-field>
           <fieldName>standardPrice</fieldName>
-          <expected></expected>
+          <expected>-1</expected>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p1] field [standardPrice] was [-1.0] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -145,7 +148,10 @@
         </expect-field>
         <expect-field>
           <fieldName>standardPrice</fieldName>
-          <expected></expected>
+          <expected>-1</expected>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p2] field [standardPrice] was [-1.0] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -166,7 +172,10 @@
         </expect-field>
         <expect-field>
           <fieldName>standardPrice</fieldName>
-          <expected></expected>
+          <expected>-1</expected>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p3] field [standardPrice] was [-1.0] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -234,7 +243,7 @@
       <actualResult>1</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 06:29:19.756 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 06:30:26.102 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
