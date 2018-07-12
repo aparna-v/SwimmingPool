@@ -68,7 +68,7 @@
       <fieldData>
         <field-data>
           <name>processId</name>
-          <value>src.P1111</value>
+          <value>src.P0000</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -88,8 +88,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>310</executionTimeResult>
-      <numberOfRulesFired>12</numberOfRulesFired>
+      <executionTimeResult>466</executionTimeResult>
+      <numberOfRulesFired>15</numberOfRulesFired>
     </execution-trace>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
@@ -175,7 +175,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-07-11 09:14:48.116 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 05:25:43.834 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
