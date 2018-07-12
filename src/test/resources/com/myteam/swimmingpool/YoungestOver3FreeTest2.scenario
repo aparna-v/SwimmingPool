@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>238</executionTimeResult>
+      <executionTimeResult>248</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -149,7 +149,7 @@
         </expect-field>
         <expect-field>
           <fieldName>standardPrice</fieldName>
-          <expected>3</expected>
+          <expected>-1</expected>
           <actualResult>3</actualResult>
           <successResult>true</successResult>
           <explanation>[p4] field [standardPrice] was [3].</explanation>
@@ -175,7 +175,7 @@
       <actualResult>4</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2018-07-12 05:55:30.633 UTC</lastRunResult>
+  <lastRunResult>2018-07-12 05:56:07.397 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myteam.swimmingpool</packageName>
